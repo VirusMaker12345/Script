@@ -1,0 +1,169 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local title_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local NUKE = Instance.new("TextButton")
+local EXPLODEALL = Instance.new("TextButton")
+local SWORD = Instance.new("TextButton")
+local CRASH = Instance.new("TextButton")
+local SPAMDECAL = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local HACKSERVER = Instance.new("TextButton")
+local HACKPLAYERS = Instance.new("TextButton")
+local HACKADMINS = Instance.new("TextButton")
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.0188989341, 0, 0.533333361, 0)
+Frame.Size = UDim2.new(0, 555, 0, 288)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+title.Name = "title"
+title.Parent = Frame
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Size = UDim2.new(0, 273, 0, 67)
+title.Font = Enum.Font.Creepster
+title.Text = "BLUEPLAY 1.19"
+title.TextColor3 = Color3.fromRGB(17, 0, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+UICorner_2.Parent = title
+
+title_2.Name = "title"
+title_2.Parent = Frame
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 1.000
+title_2.Position = UDim2.new(0.529729724, 0, 0.0798611119, 0)
+title_2.Size = UDim2.new(0, 236, 0, 20)
+title_2.Font = Enum.Font.Creepster
+title_2.Text = "Made by: 547684765465478947I8"
+title_2.TextColor3 = Color3.fromRGB(17, 0, 255)
+title_2.TextScaled = true
+title_2.TextSize = 14.000
+title_2.TextWrapped = true
+
+UICorner_3.Parent = title_2
+
+NUKE.Name = "NUKE"
+NUKE.Parent = ScreenGui
+NUKE.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+NUKE.Position = UDim2.new(0.0336893983, 0, 0.652173936, 0)
+NUKE.Size = UDim2.new(0, 200, 0, 50)
+NUKE.Font = Enum.Font.Jura
+NUKE.Text = "NUKE"
+NUKE.TextColor3 = Color3.fromRGB(0, 25, 255)
+NUKE.TextScaled = true
+NUKE.TextSize = 14.000
+NUKE.TextWrapped = true
+
+EXPLODEALL.Name = "EXPLODEALL"
+EXPLODEALL.Parent = ScreenGui
+EXPLODEALL.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+EXPLODEALL.Position = UDim2.new(0.0336893983, 0, 0.749275386, 0)
+EXPLODEALL.Size = UDim2.new(0, 200, 0, 50)
+EXPLODEALL.Font = Enum.Font.Jura
+EXPLODEALL.Text = "EXPLODE ALL"
+EXPLODEALL.TextColor3 = Color3.fromRGB(0, 25, 255)
+EXPLODEALL.TextScaled = true
+EXPLODEALL.TextSize = 14.000
+EXPLODEALL.TextWrapped = true
+
+SWORD.Name = "SWORD"
+SWORD.Parent = ScreenGui
+SWORD.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+SWORD.Position = UDim2.new(0.0336893983, 0, 0.844927549, 0)
+SWORD.Size = UDim2.new(0, 200, 0, 50)
+SWORD.Font = Enum.Font.Jura
+SWORD.Text = "SWORD"
+SWORD.TextColor3 = Color3.fromRGB(0, 25, 255)
+SWORD.TextScaled = true
+SWORD.TextSize = 14.000
+SWORD.TextWrapped = true
+
+CRASH.Name = "CRASH"
+CRASH.Parent = ScreenGui
+CRASH.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+CRASH.Position = UDim2.new(0.213640094, 0, 0.652173936, 0)
+CRASH.Size = UDim2.new(0, 200, 0, 50)
+CRASH.Font = Enum.Font.Jura
+CRASH.Text = "CRASH"
+CRASH.TextColor3 = Color3.fromRGB(0, 25, 255)
+CRASH.TextScaled = true
+CRASH.TextSize = 14.000
+CRASH.TextWrapped = true
+
+SPAMDECAL.Name = "SPAMDECAL"
+SPAMDECAL.Parent = ScreenGui
+SPAMDECAL.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+SPAMDECAL.Position = UDim2.new(0.213640094, 0, 0.749275386, 0)
+SPAMDECAL.Size = UDim2.new(0, 200, 0, 50)
+SPAMDECAL.Font = Enum.Font.Jura
+SPAMDECAL.Text = "SPAM DECAL"
+SPAMDECAL.TextColor3 = Color3.fromRGB(0, 25, 255)
+SPAMDECAL.TextScaled = true
+SPAMDECAL.TextSize = 14.000
+SPAMDECAL.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = ScreenGui
+_666.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+_666.Position = UDim2.new(0.213640094, 0, 0.844927549, 0)
+_666.Size = UDim2.new(0, 200, 0, 50)
+_666.Font = Enum.Font.Jura
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(0, 25, 255)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+HACKSERVER.Name = "HACKSERVER"
+HACKSERVER.Parent = ScreenGui
+HACKSERVER.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+HACKSERVER.Position = UDim2.new(0.391125709, 0, 0.844927549, 0)
+HACKSERVER.Size = UDim2.new(0, 77, 0, 50)
+HACKSERVER.Font = Enum.Font.Jura
+HACKSERVER.Text = "HACK SERVER"
+HACKSERVER.TextColor3 = Color3.fromRGB(0, 25, 255)
+HACKSERVER.TextScaled = true
+HACKSERVER.TextSize = 14.000
+HACKSERVER.TextWrapped = true
+
+HACKPLAYERS.Name = "HACKPLAYERS"
+HACKPLAYERS.Parent = ScreenGui
+HACKPLAYERS.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+HACKPLAYERS.Position = UDim2.new(0.391125709, 0, 0.749275386, 0)
+HACKPLAYERS.Size = UDim2.new(0, 77, 0, 50)
+HACKPLAYERS.Font = Enum.Font.Jura
+HACKPLAYERS.Text = "HACK PLAYERS"
+HACKPLAYERS.TextColor3 = Color3.fromRGB(0, 25, 255)
+HACKPLAYERS.TextScaled = true
+HACKPLAYERS.TextSize = 14.000
+HACKPLAYERS.TextWrapped = true
+
+HACKADMINS.Name = "HACKADMINS"
+HACKADMINS.Parent = ScreenGui
+HACKADMINS.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+HACKADMINS.Position = UDim2.new(0.391125709, 0, 0.652173936, 0)
+HACKADMINS.Size = UDim2.new(0, 77, 0, 50)
+HACKADMINS.Font = Enum.Font.Jura
+HACKADMINS.Text = "HACK ADMINS"
+HACKADMINS.TextColor3 = Color3.fromRGB(0, 25, 255)
+HACKADMINS.TextScaled = true
+HACKADMINS.TextSize = 14.000
+HACKADMINS.TextWrapped = true
