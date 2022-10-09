@@ -1,0 +1,129 @@
+-- By virus maker
+-- Version: 3.2
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local CRASH = Instance.new("TextButton")
+local BANALL = Instance.new("TextButton")
+local KICKALL = Instance.new("TextButton")
+local NUKE = Instance.new("TextButton")
+local TROLL = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local Info = Instance.new("TextLabel")
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.0402629413, 0, 0.366666675, 0)
+Frame.Size = UDim2.new(0, 365, 0, 358)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(-0.000832948834, 0, -0.00204840302, 0)
+Title.Size = UDim2.new(0, 365, 0, 50)
+Title.Font = Enum.Font.Creepster
+Title.Text = "Dead Script's"
+Title.TextColor3 = Color3.fromRGB(255, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+Title.TextWrapped = true
+
+CRASH.Name = "CRASH"
+CRASH.Parent = Frame
+CRASH.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+CRASH.Position = UDim2.new(0.0493150689, 0, 0.765363157, 0)
+CRASH.Size = UDim2.new(0, 200, 0, 50)
+CRASH.Font = Enum.Font.Michroma
+CRASH.Text = "Crash"
+CRASH.TextColor3 = Color3.fromRGB(255, 0, 0)
+CRASH.TextScaled = true
+CRASH.TextSize = 14.000
+CRASH.TextWrapped = true
+
+BANALL.Name = "BANALL"
+BANALL.Parent = Frame
+BANALL.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+BANALL.Position = UDim2.new(0.0493150689, 0, 0.544692755, 0)
+BANALL.Size = UDim2.new(0, 200, 0, 50)
+BANALL.Font = Enum.Font.Michroma
+BANALL.Text = "BAN ALL"
+BANALL.TextColor3 = Color3.fromRGB(255, 0, 0)
+BANALL.TextScaled = true
+BANALL.TextSize = 14.000
+BANALL.TextWrapped = true
+
+KICKALL.Name = "KICKALL"
+KICKALL.Parent = Frame
+KICKALL.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KICKALL.Position = UDim2.new(0.0493150689, 0, 0.326815665, 0)
+KICKALL.Size = UDim2.new(0, 200, 0, 50)
+KICKALL.Font = Enum.Font.Michroma
+KICKALL.Text = "KICK ALL"
+KICKALL.TextColor3 = Color3.fromRGB(255, 0, 0)
+KICKALL.TextScaled = true
+KICKALL.TextSize = 14.000
+KICKALL.TextWrapped = true
+
+NUKE.Name = "NUKE"
+NUKE.Parent = Frame
+NUKE.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+NUKE.Position = UDim2.new(0.687671244, 0, 0.765363157, 0)
+NUKE.Size = UDim2.new(0, 91, 0, 50)
+NUKE.Font = Enum.Font.Michroma
+NUKE.Text = "NUKE"
+NUKE.TextColor3 = Color3.fromRGB(255, 0, 0)
+NUKE.TextScaled = true
+NUKE.TextSize = 14.000
+NUKE.TextWrapped = true
+
+TROLL.Name = "TROLL"
+TROLL.Parent = Frame
+TROLL.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TROLL.Position = UDim2.new(0.687671244, 0, 0.544692755, 0)
+TROLL.Size = UDim2.new(0, 91, 0, 50)
+TROLL.Font = Enum.Font.Michroma
+TROLL.Text = "TROLL"
+TROLL.TextColor3 = Color3.fromRGB(255, 0, 0)
+TROLL.TextScaled = true
+TROLL.TextSize = 14.000
+TROLL.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = Frame
+_666.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+_666.Position = UDim2.new(0.687671244, 0, 0.326815665, 0)
+_666.Size = UDim2.new(0, 91, 0, 50)
+_666.Font = Enum.Font.Michroma
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(255, 0, 0)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+Info.Name = "Info"
+Info.Parent = Frame
+Info.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Info.BackgroundTransparency = 1.000
+Info.Position = UDim2.new(-0.000832948834, 0, 0.159962773, 0)
+Info.Size = UDim2.new(0, 365, 0, 50)
+Info.Font = Enum.Font.Creepster
+Info.Text = "BUTTONS CAN NOT WORKING THIS GUI IS NEW!!"
+Info.TextColor3 = Color3.fromRGB(255, 0, 0)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+Info.TextWrapped = true
